@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20241205181904_v2.cs" />
+    <Compile Remove="Migrations\20241205181904_v2.Designer.cs" />
+    <Compile Remove="Migrations\20241205182839_AddNewColumns.cs" />
+    <Compile Remove="Migrations\20241205182839_AddNewColumns.Designer.cs" />
+    <Compile Remove="Migrations\20241205185613_updatedone.cs" />
+    <Compile Remove="Migrations\20241205185613_updatedone.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    
+ 
+    
+    <PackageReference Include="Azure.Identity" Version="1.10.3" />
+	  
+    
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.ViewFeatures" Version="2.2.0" />
+    
+ 
+    
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
+    
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.10" />
+    
+  </ItemGroup>
+
+</Project>
